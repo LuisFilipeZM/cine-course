@@ -3,6 +3,8 @@ module.exports = {
         dialect: 'postgres',
         host: 'localhost',
         port: '5432',
-        databese: ''
+        database: 'cinecourse_development',
+        username: 'postgres',
+        password: 'luis040312',
     }
 }
