@@ -1,6 +1,6 @@
-import { Response } from "express";
-import { AuthenticatedRequest } from "../middlewares/auth";
-import { favoriteService } from "../services/favoriteService";
+import { Response } from "express"
+import { AuthenticatedRequest } from "../middlewares/auth"
+import { favoriteService } from "../services/favoriteService"
 
 export const favoritesController = {
     index: async (req: AuthenticatedRequest, res: Response) => {

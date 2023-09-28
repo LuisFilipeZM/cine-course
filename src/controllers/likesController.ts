@@ -1,6 +1,6 @@
-import { Response } from "express";
-import { AuthenticatedRequest } from "../middlewares/auth";
-import { likeService } from "../services/likeService";
+import { Response } from "express"
+import { AuthenticatedRequest } from "../middlewares/auth"
+import { likeService } from "../services/likeService"
 
 export const likesController = {
     save: async (req: AuthenticatedRequest, res: Response) => {

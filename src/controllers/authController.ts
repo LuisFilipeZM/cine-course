@@ -1,7 +1,6 @@
-import { Request, Response } from "express";
-import { userService } from "../services/userService";
-import { jwtService } from "../services/jwtService";
-import { json } from "sequelize";
+import { Request, Response } from "express"
+import { userService } from "../services/userService"
+import { jwtService } from "../services/jwtService"
 
 export const authController = {
     register: async (req: Request, res: Response) => {
